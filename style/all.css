@@ -570,6 +570,15 @@ body {
   color: var(--neutral-600);
 }
 
+@media (max-width: 767px) {
+  .breadcrumb-item + .breadcrumb-item::before {
+    padding: 0 8px;
+  }
+  .breadcrumb-item {
+    font-size: 14px;
+  }
+}
+
 .btn {
   border-radius: 4px;
   padding: 12px 24px;
